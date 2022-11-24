@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-color);
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .link:hover,
+  .link:focus {
+    color: var(--focus-color);
+  }

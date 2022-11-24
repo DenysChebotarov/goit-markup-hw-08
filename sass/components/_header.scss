@@ -1,0 +1,27 @@
+.header {
+    border-bottom: 1px solid #ececec;
+    background-color: var(--third-color);
+  }
+  .header__container {
+    display: flex;
+    align-items: center;
+  }
+  .header__nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  .header__item {
+    margin-right: 50px;
+  }
+  
+  .header__icon {
+    margin-right: 10px;
+    fill: var(--second-color);
+    transition: var(--transition-fill);
+  }
