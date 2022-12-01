@@ -1,8 +1,24 @@
 .container {
-    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-  
-    /* outline: 2px solid red;
-    outline-offset: -2px; */
+
+     // mobile
+     @media screen and (min-width: 480px) {
+      width: 480px;
+    }
+
+    // tablet
+    @media screen and (min-width: 768px) {
+      width: 768px;
+    }
+
+    // desctop
+    @media screen and (min-width: 1200px) {
+      width: 1200px;
+    }
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+    
   }
+  

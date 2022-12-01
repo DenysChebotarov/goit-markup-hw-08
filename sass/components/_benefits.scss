@@ -1,16 +1,32 @@
 .benefits {
     color: var(--white-color);
-    padding-top: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px){
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
   }
   .benefits__list {
-    display: flex;
+    
+    @media screen and (min-width:768px){
+      display: flex;
+      flex-wrap: wrap;
+    }
+    @media screen and (min-width:1200px){
+      display: flex;
+    }
+    
   }
-  .benefits__item {
-    width: 270px;
+    
   
-  &:not(:last-child) {
-    margin-right: 30px;
+  .benefits__item {
+  @media screen and (min-width:768px){
+    flex-basis: 50%;
+    
   }
+    
 }
   .benefits__container {
     display: flex;
