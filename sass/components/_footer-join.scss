@@ -1,4 +1,17 @@
+.footer__join{
+  @media screen and (max-width:767px){
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width:768px){
+    
+    
+  }
+}
 .join__title {
+  @media screen and (max-width:1199px){
+    text-align: center;
+  }
+  
     margin-bottom: 20px;
   
     font-weight: 700;

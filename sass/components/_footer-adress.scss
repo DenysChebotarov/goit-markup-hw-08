@@ -4,13 +4,36 @@
 
     background-color: var(--background-main-footer);
   }
-  .footer__container {
+  .footer__container{
+    @media screen and (min-width:1200px){
+      display: flex;
+      align-items: baseline;
+    }
+  }
+ .footer__container-tablet{
+  @media screen and (min-width:768px){
     display: flex;
     align-items: baseline;
   }
-  .footer__adress {
-    margin-right: 70px;
+  @media screen and (min-width:1200px){
+    margin-right: 94px;
   }
+ }
+  .footer__adress {
+    @media screen and (max-width:767px){
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    @media screen and (min-width:767px) and (max-width:1199px){
+      margin-right: 165px;
+      margin-bottom: 60px;
+    }
+    @media screen and (min-width:1200px){
+      margin-right: 70px;
+    }
+    }
+
+   
   .adress {
     margin-top: 20px;
     font-style: normal;
