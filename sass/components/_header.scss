@@ -6,6 +6,10 @@
   position: relative;
   display: flex;
   align-items: center;
+  @media screen and (max-width: 767px){
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 .header__nav {
   flex-grow: 1;
@@ -22,8 +26,6 @@
     justify-content: flex-end;
     align-items: baseline;
     gap: 10px;
-    padding-top: 21px;
-    padding-bottom: 21px;
   }
 
   display: flex;

@@ -54,7 +54,7 @@
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   ),
-  url(../../images/hero/img_1536tab.jpg);
+  url(../images/hero/img_1536tab.jpg);
   }
 }
 // Decstop screen
@@ -64,7 +64,7 @@
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   ),
-  url(../../images/hero/img_1600dec.jpg);
+  url(../images/hero/img_1600dec.jpg);
 // Decstop screen retina
   @media (min-device-pixel-ratio: 2), 
   (min-resolution: 192dpi), 
@@ -74,7 +74,7 @@
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)
   ),
-  url(../../images/hero/img_3200dec.jpg);
+  url(../images/hero/img_3200dec.jpg);
   }
 }
 
