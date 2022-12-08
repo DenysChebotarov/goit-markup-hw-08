@@ -473,6 +473,11 @@ ul {
             align-items: baseline;
   }
 }
+@media screen and (max-width: 1199px) {
+  .footer__container-tablet {
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .footer__container-tablet {
     margin-right: 94px;
@@ -482,11 +487,13 @@ ul {
 @media screen and (max-width: 767px) {
   .footer__adress {
     text-align: center;
+    margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__adress {
     margin-right: 165px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -587,10 +594,6 @@ ul {
 input:focus-visible,
 textarea:focus-visible {
   outline: none;
-}
-
-.footer__container-tablet {
-  margin-bottom: 60px;
 }
 
 .join__title {
@@ -907,8 +910,8 @@ textarea:focus-visible {
 }
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/hero/img_960mob.jpg);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/hero/img_960mob.jpg);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero/img_960mob.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/img_960mob.jpg);
   }
 }
 @media screen and (min-width: 768px) {
